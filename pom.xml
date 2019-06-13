@@ -1,17 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>RestfulWSMaven</groupId>
-  <artifactId>RestfulWSMaven</artifactId>
+  <groupId>VoucherRestfulWS</groupId>
+  <artifactId>VoucherRestfulWS</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  
-  <developers>
-    <developer>
-      <id>Mwambeke</id>
-      <name>Sylvester Mwambeke</name>
-      <email>sylvestermwambeke@gmail.com</email>
-    </developer>    
-  </developers>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -58,6 +50,11 @@
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-core</artifactId>
 			<version>1.19.4</version>
+		</dependency>
+		<dependency>
+		   <groupId>mysql</groupId>
+		   <artifactId>mysql-connector-java</artifactId>
+		   <version>5.1.17</version>
 		</dependency>
 	</dependencies>
 </project>
